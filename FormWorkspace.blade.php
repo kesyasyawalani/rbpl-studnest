@@ -51,12 +51,12 @@
                         <div class="form-group m-4">
                             <label for="ws_deadline" id="input-title">Deadline:</label>
                             <input type="ws_deadline" class="form-control" id="ws_deadline" placeholder="DD/MM/YY"
-                                name="ws_deadline" {{--required aria-required="true" required="required"--}}>
+                                name="ws_deadline" required aria-required="true" required="required">
                         </div>
                         <div class="form-group m-4">
                             <label for="ws_members" id="input-title">Members:</label>
                             <input type="ws_members" class="form-control" id="ws_members" placeholder="Username"
-                                name="ws_members" {{--required aria-required="true" required="required"--}}>
+                                name="ws_members" required aria-required="true" required="required">
                         </div>
                     </div>
                     <div class="flex-column" id="submit">
