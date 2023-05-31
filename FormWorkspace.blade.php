@@ -5,24 +5,24 @@
 @extends('templateworkspace')
 
 @section('sidebar')
-<nav class="nav nav-pills flex-column ml-4">
-    <a class="choose nav-link mb-2" aria-current="page" href="#">
-        <i class="fa-solid fa-folder-open mr-3"></i>
-        Workspace</a>
+<nav class="sidenav nav nav-pills flex-column ml-4">
+    <a class="nav-link mb-2" aria-current="page" href="#">
+            <i class="fa-solid fa-list-check mr-3"></i>
+            My Task</a>
+    <a class="choose nav-link mb-2" href="#">
+            <i class="fa-solid fa-file-lines mr-3"></i>
+            Workspace</a>
     <a class="nav-link mb-2" href="#">
-        <i class="fas fa-file mr-3"></i>
-        SN Merger</a>
-    <a class="nav-link mb-2" href="#">
-        <i class="fas fa-calendar-alt mr-3"></i>
-        Calendar</a>
-    <a class="nav-link mr-2" href="#">
-        <i class="fa-sharp fa-solid fa-circle-notch mr-3"></i>
-        Trackgres</a>
+            <i class="fa-solid fa-users mr-3"></i>
+            Forum</a>
     <a class="nav-link mb-2">
-    </a>
+            <i class="fa-regular fa-square-check mr-3"></i>
+            History</a>
     <a class="nav-link mb-2">
-        <i class="fa-solid fa-arrow-right-from-bracket mr-3"></i>
-        Log Out</a>
+            </a>
+    <a class="nav-link mb-2">
+            <i class="fa-solid fa-arrow-right-from-bracket mr-3"></i>
+            Log Out</a>
 </nav>
 @endsection
 
