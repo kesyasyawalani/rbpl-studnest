@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.checkbox-round {
+input[type="checkbox"] {
     width: 1.3em;
     height: 1.3em;
     background-color: white;
@@ -46,10 +46,26 @@
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.checkbox-round:checked {
+input[type="checkbox"]:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 9px;
+    color: white;
+    content: "\f00c";
+    display: none;
+}
+
+input[type="checkbox"]:checked {
     background-color: #589BFF;
+}
+
+input[type="checkbox"]:checked:after {
+    display: block;
 }
 
 .box{
