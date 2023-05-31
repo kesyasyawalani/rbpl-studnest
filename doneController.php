@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 
 class doneController extends Controller
 {
-    public function openWorkspace(){
-    // mengambil data pegawai berdasarkan id yang dipilih
+    public function openWorkspace($id){
+
+    //tolong bgt ini harusnya workspacenya kebuka sesuai id tp aku bingung
     $task = DB::table('Task')->get();
     $workspace = DB::table('Workspace')->get();
 
-    //'' utk diakses di view
     return view('workspace',['task' => $task , 'workspace' => $workspace]);
     }
 
