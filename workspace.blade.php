@@ -48,12 +48,14 @@
         @foreach ($workspace as $w)
         {{-- JUDUL WORKSPACE --}}
             <div class="flex-column">
+            {{-- INI SALAH HARSUNYA NYAMBUNG KE ID TOLONG BENERIN MAKASEY--}}
                 <label class="title"> {{ $w->workspace_name }}
                 </label>
             </div>
         {{-- DESKRIPSI WORKSPACE --}}
             <div class="flex-column mt-2">
                 <div class="subtitle mb-2">Deskripsi</div>
+            {{-- INI SALAH HARSUNYA NYAMBUNG KE ID TOLONG BENERIN MAKASEY--}}
                 <p class="desc"> {{ $w->workspace_description }} </p>
             </div>
         @endforeach
