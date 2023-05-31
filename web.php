@@ -21,6 +21,6 @@ Route::controller(CreateWorkspaceController::class)->group(function () {
 });
 
 Route::controller(AddMytaskController::class)->group(function () {
-    Route::get('task/form', 'openAddMyTask');
+    Route::get('workspace/task/form', 'openAddMyTask');
     Route::post('workspace/updateMyTask','updateMyTask');
 });
