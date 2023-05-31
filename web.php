@@ -15,7 +15,8 @@ Route::controller(doneController::class)->group(function () {
 });
 
 Route::controller(CreateWorkspaceController::class)->group(function () {
-    Route::get('workspace/form', 'showFormWorkspace');
+    Route::get('/workspace/dashboard', 'showDashboardWorkspace');
+    Route::get('/workspace/form', 'showFormWorkspace');
     Route::post('workspace/addDataFormWorkspace','addDataFormWorkspace');
 });
 
