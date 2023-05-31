@@ -11,7 +11,7 @@ Route::get('/', function () {
 });
 
 Route::controller(doneController::class)->group(function () {
-    Route::get('/workspace', 'openWorkspace');
+    Route::get('/workspace/{id}', 'openWorkspace');
 });
 
 Route::controller(CreateWorkspaceController::class)->group(function () {
