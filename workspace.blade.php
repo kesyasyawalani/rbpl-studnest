@@ -1,4 +1,5 @@
-@extends('templateworkspace')
+@extends('layout')
+@extends('templatehome')
 
 <head>
     <link href="{{ asset('css/workspace.css') }}" rel="stylesheet">
